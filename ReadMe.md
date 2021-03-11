@@ -23,10 +23,32 @@
 | `git stash` | To Stash the current changes |
 | `git stash pop 0` | To pickup the last stashed changes from the stack |
 | `git stash drop 0` | To drop the last stashed changes from the stack |
+| `git gc` | To perform GC in GIT |
+
 
 Reference(s):
 - https://www.tutorialspoint.com/git/index.htm
 - https://www.atlassian.com/git
 - https://www.atlassian.com/git/tutorials/setting-up-a-repository
 - https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/
+- http://www.amarinfotech.com/gitlab-vs-github-vs-bitbucket.html
+- http://genomewiki.ucsc.edu/index.php/Resolving_merge_conflicts_in_Git
+
+Revert Git Change(s):
+- https://opensource.com/article/18/6/git-reset-revert-rebase-commands
+- https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git
+- https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit
+
+
+Other Git Commands:
+| Command | Description |
+| ------- | ----------- |
+| `git fetch -p` |  |
+| `git branch -vv \| grep ': gone]' \| awk '{print $1}'` | |
+| `git branch -vv \| grep ': gone]' \| awk '{print $1}' \| xargs git branch -d` |  |
+| `git remote prune origin` |  |
+| `git remote prune origin --dry-run` | 
+| `git branch --merged >/tmp/merged-branches && vi /tmp/merged-branches && xargs git branch -d </tmp/merged-branches` | |
+
+
 

@@ -1,5 +1,24 @@
 #### GIT Commands:
 
+
+##### Initial Setup
+
+```
+git remote add origin https://github.com/suresh12391/spring-rabbitmq.git
+git config user.name "Suresh Arumugam"
+git config user.email abc@gmail.com
+
+git config --global user.name "Suresh Arumugam"
+git config --global user.email abc@gmail.com
+
+git config --list --show-origin
+
+git remote set-url origin https://github.com/suresh12391/spring-rabbitmq.git
+git remote -v
+```
+
+
+
 | Command | Description |
 | ------- | ----------- |
 | `git clone https://gitlab.com/abcd/123.git` | To clone a repo from remote |

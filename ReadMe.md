@@ -4,6 +4,7 @@
 ##### Initial Setup
 
 ```
+git initi
 git remote add origin https://github.com/suresh12391/spring-rabbitmq.git
 git config user.name "Suresh Arumugam"
 git config user.email abc@gmail.com

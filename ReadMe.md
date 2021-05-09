@@ -46,6 +46,18 @@ git remote -v
 | `git gc` | To perform GC in GIT |
 
 
+Git Tag:
+
+```
+$ git tag <tag-name> master       # Create a tag from a branch
+$ git tag                         # see tag lists
+$ git push origin <tag-name>      # push a single tag
+$ git push --tags                 # push all local tags 
+$  git push --follow-tags         # It pushes both commits and only tags that are both
+$ git push --delete origin <tag-name>    # Delete the tag in remote
+$ git tag -d <tag-name>          # Delete the tag in local
+```
+
 Reference(s):
 - https://www.tutorialspoint.com/git/index.htm
 - https://www.atlassian.com/git
